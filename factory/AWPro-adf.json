@@ -1,0 +1,9 @@
+{
+	"name": "AWPro-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b39619d9-7ee0-4325-9a86-7bcb60a66936",
+		"tenantId": "f5222e6c-5fc6-48eb-8f03-73db18203b63"
+	}
+}
