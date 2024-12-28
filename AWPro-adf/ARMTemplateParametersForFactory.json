@@ -8,11 +8,11 @@
 		"StorageDataLake_accountKey": {
 			"value": ""
 		},
-		"httpLinkedService_properties_typeProperties_url": {
-			"value": "https://raw.githubusercontent.com/"
-		},
 		"StorageDataLake_properties_typeProperties_url": {
 			"value": "https://awstoragedatalke.dfs.core.windows.net/"
+		},
+		"httpLinkedService_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
 		}
 	}
 }

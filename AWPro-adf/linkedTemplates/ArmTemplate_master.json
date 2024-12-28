@@ -11,13 +11,13 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'StorageDataLake'"
 		},
-		"httpLinkedService_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://raw.githubusercontent.com/"
-		},
 		"StorageDataLake_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://awstoragedatalke.dfs.core.windows.net/"
+		},
+		"httpLinkedService_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -49,11 +49,11 @@
 					"StorageDataLake_accountKey": {
 						"value": "[parameters('StorageDataLake_accountKey')]"
 					},
-					"httpLinkedService_properties_typeProperties_url": {
-						"value": "[parameters('httpLinkedService_properties_typeProperties_url')]"
-					},
 					"StorageDataLake_properties_typeProperties_url": {
 						"value": "[parameters('StorageDataLake_properties_typeProperties_url')]"
+					},
+					"httpLinkedService_properties_typeProperties_url": {
+						"value": "[parameters('httpLinkedService_properties_typeProperties_url')]"
 					}
 				}
 			},
